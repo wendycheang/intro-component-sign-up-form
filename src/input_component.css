@@ -1,0 +1,49 @@
+/** Formatting **/
+
+.signup__input {
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.signup__input::placeholder {
+    color: var(--dark-blue);
+    opacity: .70;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--dark-blue);
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--dark-blue);
+}
+
+.input__error {
+    border: 3px solid var(--red);
+    background-image:  url("/public/images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: right 1em center;
+}
+
+.error_message{
+    font-size: var(--small-font-size);
+    text-align: right;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--red);
+}
+
+/** Layout **/
+.signup__input {
+    margin: .5em 0;
+    padding: 1em;
+    width: 100%;
+}
+
+.error_message{
+    margin-bottom: .5em;
+}

@@ -1,0 +1,24 @@
+/** Formatting **/
+
+.signup__button {
+    font-family: inherit;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: var(--normal-font-size);
+    font-weight: 600;
+    text-transform: uppercase;
+    border:1px solid var(--dark-green);
+
+    -webkit-box-shadow: 0px 6px 0px 0px var(--dark-green);
+    -moz-box-shadow: 0px 6px 0px 0px var(--dark-green);
+    box-shadow: 0px 6px 0px 0px var(--dark-green);
+}
+
+
+/** Layout **/
+.signup__button {
+    padding: 1em 0;
+    width: 100%;
+    margin: 1em 0;
+}

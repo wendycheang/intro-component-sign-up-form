@@ -1,0 +1,84 @@
+/** Formatting **/
+
+.App {
+  text-align: center;
+  background-color: var(--red);
+  background-image: url("/public/images/bg-intro-mobile.png");
+}
+
+.header {
+  color: var(--white);
+  line-height: 1.25em;
+}
+
+.description {
+  color: var(--darkish-white);
+}
+
+.advertise {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 6px 0px 0px var(--darkish-red);
+  -webkit-box-shadow: 0px 6px 0px 0px  var(--darkish-red);
+  -moz-box-shadow: 0px 6px 0px 0px  var(--darkish-red);
+}
+
+.advertise__description {
+  font-weight: 400;
+}
+
+/** layout **/
+
+.App {
+  padding: 5rem 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section{
+  max-width: 500px;
+}
+
+.header {
+  margin: 0;
+}
+
+.description {
+  margin: 2rem 0;
+}
+
+.advertise {
+  padding: 1em 0;
+  margin: 2em 0;
+}
+
+.advertise__description {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 375px) {
+
+  .App {
+    background-color: var(--red);
+    background-image: url("/public/images/bg-intro-desktop.png");
+  }
+
+  .container {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .main-section {
+    text-align: left;
+  }
+
+
+}

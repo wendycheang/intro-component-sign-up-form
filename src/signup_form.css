@@ -1,0 +1,40 @@
+/** Formatting **/
+
+.signup-form {
+    background-color: var(--white);
+    padding: 1em 0;
+    border-radius: 10px;
+
+    box-shadow: 0px 6px 0px 0px var(--darkish-red);
+    -webkit-box-shadow: 0px 6px 0px 0px  var(--darkish-red);
+    -moz-box-shadow: 0px 6px 0px 0px  var(--darkish-red);
+}
+
+.disclaimer {
+    font-weight: 500;
+    font-size: var(--small-font-size);
+    color: var(--grayish-blue);
+}
+
+.disclaimer a{
+    color: var(--red);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/** Layout **/
+.signup__input {
+    margin: .5em 0;
+    padding: 1em;
+    width: 100%;
+}
+
+.signup__container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.disclaimer {
+    width: 85%;
+    margin: 0 auto;
+}

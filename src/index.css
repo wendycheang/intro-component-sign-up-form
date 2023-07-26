@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --darkish-red: hsla(359, 42%, 50%, 0.75);
+  --green: hsl(154, 59%, 51%);
+  --dark-green: rgba(51, 183, 126, 1);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  --white: hsl(300,100%,99%);
+  --darkish-white: hsl(0,100%,97%);
+
+  --main-font: 'Poppins', sans-serif;
+
+  --normal-font-size: 1rem;
+  --button-font-size: 1.25rem;
+  --small-font-size: .75rem;
+
+  --header-font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin:0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: var(--header-font-size);
+}
+ 
+button, input, a {
+  font-family: var(--main-font);
+  opacity: 85%;
+  cursor: pointer;
+}
+
+button:hover, input:hover, a:hover {
+ opacity: 100%;
+}
+
+
+@media (min-width: 375px) {
+
+  :root {
+    --header-font-size: 3rem;
+  }
+
+}
