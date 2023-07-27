@@ -3,7 +3,9 @@ import SignUpButton from "./SignupButton"
 import "./signup_form.css"
 import InputComponent from "./InputComponent"
 
-var EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+/* eslint-disable */
+var EMAIL_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+/* eslint-enable */
 
 //helper function for object mapping
 const objectMap = (object, mapFn) => {
@@ -98,7 +100,7 @@ const SignUpForm = () => {
                 <SignUpButton handleClick={submitForm} />
 
                 <div className="disclaimer">
-                    By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+                    By clicking the button, you are agreeing to our <a href="google.com">Terms and Services</a>
                 </div>
 
             </div>
