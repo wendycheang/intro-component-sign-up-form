@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Link](https://your-solution-url.com)
+- Solution URL: [Github Link](https://github.com/wendycheang/intro-component-sign-up-form)
 - Live Site URL: [Live Site](https://master--gentle-horse-00db64.netlify.app/)
 
 ## My process
